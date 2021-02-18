@@ -1,7 +1,7 @@
 # This YAML file defines the relationship and deployment ordering of your environments.
 
 # The name of the pipeline
-name: pipeline-ecsworkshop-YOURGITHUBUSERNAME-ecsdemo-frontend
+name: pipeline-ecsworkshop-locsob-ecsdemo-frontend
 
 # The version of the schema used in this template
 version: 1
@@ -16,7 +16,7 @@ source:
   properties:
     access_token_secret: github-token-ecsworkshop-ecsdemo-frontend
     branch: main
-    repository: https://github.com/YOURGITHUBUSERNAME/ecsdemo-frontend
+    repository: https://github.com/locsob/ecsdemo-frontend
 
 # The deployment section defines the order the pipeline will deploy
 # to your environments.
